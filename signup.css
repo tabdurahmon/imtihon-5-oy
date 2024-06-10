@@ -1,0 +1,75 @@
+.title-sign {
+  height: 39px;
+  top: 216px;
+  left: 176px;
+  gap: 0px;
+  opacity: 0px;
+}
+.email {
+  display: flex;
+  margin-bottom: 32px;
+  gap: 31px;
+}
+.user {
+}
+.des {
+  width: 138px;
+  height: 17px;
+  top: 327px;
+  left: 160px;
+  gap: 0px;
+  opacity: 0px;
+  color: #1f3e97;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 16.94px;
+  text-align: left;
+}
+.user-input {
+  width: 349px;
+  height: 30px;
+  top: 360px;
+  left: 144px;
+  padding: 16px 0px 0px 0px;
+  gap: 96px;
+  border-radius: 8px;
+  opacity: 0px;
+
+  text-align: center;
+}
+.pasw {
+}
+.pasw-input {
+  width: 349px;
+  height: 30px;
+  top: 360px;
+  left: 144px;
+  padding: 16px 0px 0px 0px;
+  gap: 96px;
+  border-radius: 8px;
+  opacity: 0px;
+  text-align: center;
+}
+.sig-in {
+  width: 739px;
+  height: 56px;
+  margin-bottom: 32px;
+  color: #fff;
+  background-color: #1f3e97;
+  border-radius: 12px;
+}
+.link-a {
+  width: 233px;
+  height: 56px;
+  top: 39px;
+  left: 248px;
+  gap: 0px;
+  opacity: 0px;
+  text-align: center;
+  padding-top: 19px;
+  padding-bottom: 19px;
+  border: solid #333;
+  padding-left: 17px;
+  padding-right: 17px;
+  border-radius: 12px;
+}
