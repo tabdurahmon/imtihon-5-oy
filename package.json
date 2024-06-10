@@ -1,5 +1,5 @@
 {
-  "name": "imtihon-5-oy",
+  "name": "6-dars",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,6 +10,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "tailwindcss": "^3.4.4"
+    "tailwindcss": "^3.4.3"
   }
 }

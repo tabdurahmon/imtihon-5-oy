@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vantela Product Detail</title>
+    <link rel="stylesheet" href="./about.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo"><img src="./images/vantela (2).svg" alt="" /></div>
+      <nav>
+        <ul>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="#">Sneakers</a></li>
+          <li><a href="#">Slip On</a></li>
+          <li><a href="#">Sandals</a></li>
+          <li><a href="#">Other</a></li>
+        </ul>
+      </nav>
+      <div class="actions">
+        <a href="#" class="icon">🛒</a>
+        <a href="#" class="icon">❤️</a>
+        <a href="#" class="icon">👤</a>
+      </div>
+      <div class="auth">
+        <a href="#" class="button">Sign Up</a>
+        <a href="#" class="button">Sign In</a>
+      </div>
+    </header>
+    <main>
+      <div class="breadcrumb">
+        <a href="index.html">Home</a> > <a href="#">Sneakers</a> >
+        <a href="#">Men's Sneakers</a> >
+        <span id="breadcrumb-title">Product</span>
+      </div>
+      <section class="product-detail">
+        <div class="product-image">
+          <img
+            id="product-img\\"
+            src="./images/image 1.png"
+            alt="Product Image"
+          />
+        </div>
+        <div class="product-info">
+          <span class="discount-tag" id="discount-tag"></span>
+          <h1 id="product-title">Product Title</h1>
+          <p class="original-price" id="original-price"></p>
+          <p class="discounted-price" id="discounted-price"></p>
+          <div class="size-selection">
+            <label for="size">Select a size:</label>
+            <div id="sizes"></div>
+          </div>
+          <div class="actions">
+            <button class="add-to-cart">+ Add to cart</button>
+            <button class="buy-now">Buy now</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="product-details">
+        <div class="tabs">
+          <button class="tab active" data-tab="details">Details</button>
+          <button class="tab" data-tab="review">Review</button>
+          <button class="tab" data-tab="similar">Similar Products</button>
+        </div>
+        <div class="tab-content" id="details">
+          <p>Condition: New</p>
+          <p>Min. Order: 1 Piece</p>
+          <p>Showcase: All Showcase</p>
+        </div>
+        <div class="tab-content" id="review" style="display: none">
+          <p>Customer reviews will be here.</p>
+        </div>
+        <div class="tab-content" id="similar" style="display: none">
+          <p>Similar products will be listed here.</p>
+        </div>
+      </section>
+    </main>
+
+    <script src="./about.js"></script>
+  </body>
+</html>
