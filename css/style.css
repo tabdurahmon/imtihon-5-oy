@@ -41,10 +41,10 @@ nav a {
 .auth .button {
   margin-left: 10px;
   padding: 10px 20px;
-  background-color: #000;
+  background-color: #1f3e97;
   color: #fff;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 50%;
 }
 
 .hero {
@@ -127,17 +127,17 @@ h2 {
 
 .product .button {
   padding: 10px 20px;
-  background-color: #000;
+  background-color: #1f3e97;
   color: #fff;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 50%;
 }
 
 .carousel-button {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: #1f3e97;
   color: white;
   border: none;
   padding: 10px;
@@ -146,10 +146,14 @@ h2 {
 
 .carousel-button.prev {
   left: 10px;
+  width: 30px;
+  height: 30px;
 }
 
 .carousel-button.next {
   right: 10px;
+  width: 30px;
+  height: 30px;
 }
 .button {
   background-color: #1f3e97;

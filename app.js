@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const mostPopularContainer = document.getElementById(
     "most-popular-container"
   );
+
   const onSaleContainer = document.getElementById("on-sale-container");
 
   fetch("https://dummyjson.com/products")
@@ -17,12 +18,12 @@ document.addEventListener("DOMContentLoaded", function () {
                         <p>${product.title}</p>
                         <p>Rp ${product.price}</p>
                         <p>⭐⭐⭐⭐☆</p>
-                        <a href="#" class="button">Shop Now</a>
+                        <a href="about.html" class="button">Shop Now</a>
                     </div>
                 `;
       });
 
-      const onSaleProducts = products.slice(20, 25);
+      const onSaleProducts = products.slice(20, 35);
       onSaleProducts.forEach((product) => {
         onSaleContainer.innerHTML += `
                     <div class="product">
@@ -32,7 +33,7 @@ document.addEventListener("DOMContentLoaded", function () {
           product.price
         }</p> <!-- Example discount -->
                         <p>⭐⭐⭐⭐☆</p>
-                        <a href="#" class="button">Shop Now</a>
+                        <a href="about.html" class="button">Shop Now</a>
                     </div>
                 `;
       });
